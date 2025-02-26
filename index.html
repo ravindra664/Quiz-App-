@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="custum.css" />
+  </head>
+
+  <body>
+    <section class="main">
+      <div class="container" id="box">
+        <div class="col">
+          <h3 id="quesBox">1) Question will appear here</h3>
+        </div>
+        <div class="col box">
+          <input
+            name="option"
+            type="radio"
+            id="first"
+            value="a"
+            class="options"
+          />
+          <label for="first">Option 1</label>
+        </div>
+        <div class="col box">
+          <input
+            name="option"
+            type="radio"
+            id="second"
+            value="b"
+            class="options"
+          />
+          <label for="second">Option 2</label>
+        </div>
+        <div class="col box">
+          <input
+            name="option"
+            type="radio"
+            id="third"
+            value="c"
+            class="options"
+          />
+          <label for="third">Option 3</label>
+        </div>
+        <div class="col box">
+          <input
+            name="option"
+            type="radio"
+            id="fourth"
+            value="d"
+            class="options"
+          />
+          <label for="fourth">Option 4</label>
+        </div>
+        <button id="submit" onclick="submitQuiz()">Submit</button>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
